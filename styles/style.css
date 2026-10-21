@@ -197,6 +197,45 @@ html {
   opacity: 1;
 }
 
+.button {
+  border: 1px solid currentcolor;
+  padding: 0;
+  color: #fff;
+  font: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: transparent;
+}
+
+.search-form__submit-button {
+  align-self: flex-end;
+  inline-size: 194px;
+  min-block-size: 34px;
+}
+
+.more-button {
+  inline-size: 100%;
+  min-block-size: 34px;
+}
+
+.button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 2px;
+}
+
 h1,
 h2,
 h3,
